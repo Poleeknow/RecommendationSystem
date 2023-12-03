@@ -29,3 +29,21 @@ movie-recommender-system
 │
 └── scripts                 # Source code for use in this      assignment
 ```
+
+## Installation
+Before using scripts, you need to install **requirements.txt** with pip:
+``` bash
+    pip install -r requirements.txt
+```
+
+## Getting data
+To fetch the dataset, launch `scripts/get_data.py`:
+``` bash
+    python scripts/get_data.py
+```
+
+## Evaluation
+To run evaluation process, run `benchmark/evaluate.py`:
+``` bash
+    python benchmark/evaluate.py
+```

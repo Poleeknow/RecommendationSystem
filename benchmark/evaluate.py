@@ -207,7 +207,7 @@ ngcf_model = RecSysGNN(
   model='NGCF'
 )
 
-ngcf_model.load_state_dict(torch.load('ngcf_vf.pt'))
+ngcf_model.load_state_dict(torch.load('models/ngcf_vf.pt'))
 ngcf_model.eval()
 with torch.no_grad():
     _, out = ngcf_model(main_edge_index, main_edge_weight)
